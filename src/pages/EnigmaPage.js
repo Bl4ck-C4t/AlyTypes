@@ -2,12 +2,12 @@ import enigma from '../type_pics/enigma.png'
 
 export default function EnigmaPage(){
     return <div className="type-description">
-        <h1>Enigma Rosie</h1>
+        <h1>Enigma Aly</h1>
         <p>Quote: <b><i>"You don't know me at all."</i></b></p>
         <img src={enigma}/>
         <div className="description">
             <p>
-                The Enigma Rosie is mysterious and secretive.
+                The Enigma Aly is mysterious and secretive.
                 She hides information about herself and doesn't speak much.
                 To avoid talking about her self she can deflect the conversation to ask about the other person instead.
                 Who knows what secret life she lives behind the curtains 0_0

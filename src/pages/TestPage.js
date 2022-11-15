@@ -9,9 +9,8 @@ export default class TestPage extends React.Component{
         this.state = {
             currentQuestionIndex: 0
         };
-        this.types = ["Saviour", "Villain", "Anxious", "Confident", "Workaholic", "True", "Enigma", "Smart",
-            "Indulging", "Romantic"]
-        this.points = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        this.types = ["Anxious", "Cute", "Enigma", "Gamer"];
+        this.points = [0, 0, 0, 0];
         let lastQ = questions.pop();
         this.questions = questions.sort(() => Math.random() - 0.5)
         this.questions.push(lastQ)
@@ -36,6 +35,7 @@ export default class TestPage extends React.Component{
             if(this.points[i] > this.points[maxInd])
                 maxInd = i;
         }
+        console.log(maxInd);
         return this.types[maxInd];
     }
 
@@ -43,8 +43,9 @@ export default class TestPage extends React.Component{
         // console.log(this.types)
         // console.log(this.points)
         const type = this.determineType()
+        console.log("Got type: " + type)
         return <>
-            <h1>Your type is: {type} Rosie!</h1>
+            <h1>Your type is: {type} Aly!</h1>
             <Link to={"/"+ type.toLowerCase()}> <h3> Find out more about your type </h3> </Link>
         </>
 

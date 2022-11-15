@@ -2,20 +2,19 @@ import anxious from '../type_pics/anxious.png'
 
 export default function AnxiousPage(){
     return <div className="type-description">
-        <h1>Anxious Rosie</h1>
-        <p>Quote: <b><i>"I'm too timid..."</i></b></p>
+        <h1>Anxious Aly</h1>
+        <p>Quote: <b><i>"I'm scared 0-0"</i></b></p>
         <img src={anxious}/>
         <div className="description">
-            <p>The anxious type often worries about everything.
-            Being naturally timid it hides and runs from the unpredictability of the world.
-                It can be very kind and sweet but is terrified of what the world can do.
+            <p>The anxious aly walks around avoiding eye contact and hiding from people 0-0.
+                She hates being talked to and wants to be alone.
 
             </p>
             <div className="pros-list">
                 <b>Pros:</b>
                 <ul className="pros">
                     <li>
-                        + Cute
+                        + runs away fast
                     </li>
                     <li>
                         + the high anxiety protects from a lot of danger

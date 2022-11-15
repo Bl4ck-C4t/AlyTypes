@@ -13,28 +13,8 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/saviour">
-                        Saviour
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/villain">
-                        Villain
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/confident">
-                        Confident
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/workaholic">
-                        Workaholic
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/true">
-                        True
+                    <Link to="/gamer">
+                        Epic Gamer
                     </Link>
                 </li>
                 <li>
@@ -43,18 +23,8 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/smart">
-                        Smart
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/indulging">
-                        Indulging
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/romantic">
-                        Romantic
+                    <Link to="/cute">
+                        Cute
                     </Link>
                 </li>
             </ul>
