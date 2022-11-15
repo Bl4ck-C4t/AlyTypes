@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AlyTypes/static/css/main.9591cae4.css",
+    "main.js": "/AlyTypes/static/js/main.4592d266.js",
+    "static/js/787.7952afc4.chunk.js": "/AlyTypes/static/js/787.7952afc4.chunk.js",
+    "static/media/enigma.png": "/AlyTypes/static/media/enigma.8a7309c999c4241e12fa.png",
+    "static/media/gamer.png": "/AlyTypes/static/media/gamer.a2aebe3dca3905830ccf.png",
+    "static/media/anxious.png": "/AlyTypes/static/media/anxious.f9141ca2a06bda105204.png",
+    "index.html": "/AlyTypes/index.html",
+    "main.9591cae4.css.map": "/AlyTypes/static/css/main.9591cae4.css.map",
+    "main.4592d266.js.map": "/AlyTypes/static/js/main.4592d266.js.map",
+    "787.7952afc4.chunk.js.map": "/AlyTypes/static/js/787.7952afc4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9591cae4.css",
+    "static/js/main.4592d266.js"
+  ]
+}
